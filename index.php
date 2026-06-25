@@ -4,6 +4,7 @@ include "db.php";
 $sql = "select * from products order by id desc";
 $result = mysqli_query($conn, $sql);
 ?>
+<!-- Test -->
 
 <!DOCTYPE html>
 <html>
